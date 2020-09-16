@@ -151,7 +151,7 @@ int main() {
 	int *p = func();
 
 	cout << *p << endl;
-	cout << *p << endl;
+	cout << *p << endl;//栈区数据在函数执行完后自动释放
 
 	system("pause");
 
