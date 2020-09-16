@@ -176,7 +176,7 @@ int main() {
 ```c++
 int* func()
 {
-	int* a = new int(10);
+	int* a = new int(10);//利用new关键字可以把数据开辟到堆区
 	return a;
 }
 
