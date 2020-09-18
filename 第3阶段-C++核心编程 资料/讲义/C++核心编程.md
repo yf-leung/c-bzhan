@@ -1983,6 +1983,7 @@ public:
 	//静态成员函数也不占对象空间
 	static void sfunc() {
 	}
+	 //空类编译器自动分配内存1字节
 };
 
 int main() {
